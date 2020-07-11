@@ -18,6 +18,7 @@ namespace In_class_Many_many_relationships
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+
         }
 
         public IConfiguration Configuration { get; }
